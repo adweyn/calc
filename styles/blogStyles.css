@@ -1,0 +1,38 @@
+
+
+/* Основні стилі сторінки */
+@font-face {
+    font-family: FixelDisplayBold;
+    src: url(/FixelDisplay/FixelDisplay-Bold.ttf);
+
+
+
+}
+@font-face {
+    font-family: FixelDisplayRegular;
+    src: url(/FixelDisplay/FixelDisplay-Regular.ttf);
+
+
+
+}
+
+@font-face {
+    font-family: FixelDisplayLight;
+    src: url(/FixelDisplay/FixelDisplay-Light.ttf);
+}
+.articles-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+}
+.block-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 100px 0px 150px 0px;
+}
+.articles-card-text-h1{
+    font-family: FixelDisplayBold;
+}
+.articles-card-text-p {
+    font-family: FixelDisplayRegular;
+}
